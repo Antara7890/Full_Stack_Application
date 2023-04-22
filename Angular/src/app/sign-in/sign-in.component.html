@@ -1,0 +1,31 @@
+<div class="form">
+<div class="box">
+    <h3 class="heading">Sign-in</h3><hr>
+<form class="form"  #registration="ngForm" (ngSubmit)="Submit(registration)">
+    <div class="form-element">
+    <label for="name">Name : </label><br>
+    <input type="name" name="name" id="name" placeholder="Enter your name" formControlName="user">
+    </div><br>
+    <div class="form-element">
+    <label for="number">Contact : </label><br>
+    <input type="number" name="number" id="number" placeholder="Enter your number" formControlName="number">
+    </div><br>
+    <div class="form-element">
+        <label for="email">Email Id:</label><br>
+        <input type="email" name="email" id="email" placeholder="Enter your email" formControlName="email">
+    </div><br>
+    <div class="form-element">
+        <label for="password">Password </label><br>
+        <input type="password" name="password" id="password" placeholder="password" formControlName="password">
+    </div><br>
+    <div class="form-element">
+    <input type="submit" name="submit" value="Submit"> <br>
+    </div><br>
+    
+</form>
+    
+</div>
+</div>
+<div class="img">
+<img src="assets/sign.jpg" alt="">
+</div>

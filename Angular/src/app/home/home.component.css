@@ -1,0 +1,86 @@
+
+.box{
+    width: 100%;
+    height: 100px;
+    background: rgba(112, 65, 117, 0.632);
+    color: #fff;
+    top: 80px;
+    position: absolute;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+.line{
+    position: relative;
+    margin-left: 1000px;
+    color: yellowgreen;
+    
+}
+.line1{
+    box-sizing: border-box;
+    color: aliceblue;
+}
+a:hover,a:active{
+   background: blue;
+    color:rgb(243, 243, 243);
+    
+}
+.form{
+    position: relative;
+    margin-right:60px;
+    bottom: 30px;
+}
+.p{
+    position: relative;
+    margin-right:1335px;
+    bottom: 85px;
+}
+.q{
+    position: relative;
+    margin-right:1000px;
+    bottom: 120px;
+}
+.image{
+    width: 800px;
+    height: 550px;
+    top: 200px;
+    left: 46.5%;
+    position: absolute;
+    box-sizing: border-box;
+    
+    text-align: center;
+    margin-left: 10px;
+}
+h1{
+    top: 220px;
+    right: 46%;
+    position: absolute;
+}
+.para{
+    top: 350px;
+    right: 46%;
+    position: absolute;
+}
+.learn{
+    top: 518px;
+    right: 69%;
+    position: absolute;
+}
+.D{
+    top: 600px;
+    right: 85%;
+    position: absolute;
+    color: rgb(11, 85, 85);
+}
+.E{
+    top: 600px;
+    right: 55%;
+    position: absolute;
+    color: rgb(11, 85, 85);
+}
+.F{
+    top: 650px;
+    right: 70%;
+    position: absolute;
+    color: rgb(11, 85, 85);
+}

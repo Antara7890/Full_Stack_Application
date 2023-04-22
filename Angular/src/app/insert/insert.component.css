@@ -1,0 +1,36 @@
+
+
+.box{
+    width: 600px;
+    height: 560px;
+    background: rgba(70, 35, 55, 0.632);
+    color: #fff;
+    top: 120px;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.img{
+    width: 500px;
+    height: 300px;
+    top: 120px;
+    right: 60%;
+    position: absolute;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}
+.box input[type="submit"]{
+    cursor: pointer;
+    color:black;
+    width: 60%;
+    border-radius: 20px;
+}
+.box input[type="submit"]:hover{
+    background: black;
+    color: wheat;
+}

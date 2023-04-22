@@ -1,0 +1,41 @@
+
+<div class="background-image">
+</div>
+<div class="img">
+<img src="assets/insert.jpg" alt="">
+</div>
+
+
+       <form #insertform="ngForm" (ngSubmit)="insertdata(insertform)" class="box">
+        <h3> Insert Patient Details</h3><hr>
+           <label for="name"> Name : </label>&nbsp;
+           <input type="text" id="name" #name (ngModel)="name" name="name">
+           <br> <br>
+   
+           <label for="age"> Age : </label>&nbsp;
+           <input type="number" id="age"  #age (ngModel)="age" name="age">
+           <br><br>
+
+           <label for="contact"> Contact : </label>&nbsp;
+           <input type="number" id="contact"  #contact (ngModel)="contact" name="contact">
+           <br> <br>
+
+           <label for="date"> Date : </label>&nbsp;
+           <input type="date" id="date"  #date (ngModel)="date" name="date">
+           <br><br>
+
+           <label for="doctor"> Doctor : </label>&nbsp;
+           <input type="text" id="doctor"  #doctor (ngModel)="doctor" name="doctor">
+           <br><br>
+
+
+           <label for="time"> Time : </label>&nbsp;
+           <input type="time" id="time"  #time (ngModel)="time" name="time">
+           <br><br>
+   
+           <input type="submit" value="Insert" >
+
+           
+   
+       </form>
+   

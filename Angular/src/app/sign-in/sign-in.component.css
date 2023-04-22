@@ -1,0 +1,35 @@
+.box{
+    height: auto;
+    width: auto;
+    top: 110px;
+    text-align: center;
+    transform: translate(-0%,-0%);
+    box-sizing: border-box;
+    margin-left: 60px;
+    position: absolute;
+    background-color: rgba(82, 22, 60, 0.593);
+    width: 500px;
+    height: 600px;
+    
+}
+.form-element input[type="submit"]{
+    cursor: pointer;
+    color:black;
+    width: 60%;
+    border-radius: 20px;
+}
+.form-element input[type="submit"]:hover{
+    background: black;
+    color: wheat;
+}
+.img{
+    width: 700px;
+    height: 300px;
+    top: 100px;
+    left: 40%;
+    position: absolute;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10px;
+}

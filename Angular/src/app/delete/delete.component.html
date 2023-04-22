@@ -1,0 +1,14 @@
+<div align="center">
+    <div>
+        <img src="assets/delete.jpg" class="img">
+    </div>
+       <form #deleteform="ngForm" (ngSubmit)="deletedata(deleteform)" class="box">
+        <h3> Delete Patient Details</h3><hr>
+   
+           <label for="name"> Name : </label>&nbsp;
+           <input type="text" id="name" #name (ngModel)="name" name="name">
+           <br> <br>
+
+           <input type="submit" value="Delete">
+        </form>
+        <div>

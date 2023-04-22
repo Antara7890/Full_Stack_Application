@@ -1,0 +1,44 @@
+<div class="bi">
+    <img src="assets/Background.jpg" alt="">
+</div>
+
+<div class="box">
+<h3 class="heading">Services</h3>
+<div class="link">
+    <ul class="link1">
+   <li class="link2"> <a routerLink="/insert" routerLinkActive="" class="link3">INSERT </a> </li>
+   <li class="link2"><a routerLink="/update" routerLinkActive="" class="link3">UPDATE </a> </li>
+   <li class="link2"><a routerLink="/delete" routerLinkActive="" class="link3">DELETE </a> </li>
+    </ul>
+</div>
+
+
+<div align="center">
+   
+    <table class="t1">
+          <thead class="t2">
+                    <tr class="t3">
+                       <th class="t4">Name</th>
+                       <th class="t4">Age</th>
+                       <th class="t4">Contact</th>
+                       <th class="t4">Date</th>
+                       <th class="t4">Doctor</th>
+                       <th class="t4">Time</th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <tr *ngFor="let d of data">
+                       <td class="t5">{{d.name}}</td>
+                       <td class="t5">{{d.age}}</td>
+                       <td class="t5">{{d.contact}}</td>
+                       <td class="t5">{{d.date}}</td>
+                       <td class="t5">{{d.doctor}}</td>
+                       <td class="t5">{{d.time}}</td>
+                    </tr>
+           </tbody>
+    </table>
+
+
+
+</div>
+</div>
